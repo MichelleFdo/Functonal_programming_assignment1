@@ -1,0 +1,3 @@
+val string="michelle hello kohomada lamayo"
+val reverse=string.reverse.toUpperCase()
+println(s"$string after formattings : $reverse")
