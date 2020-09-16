@@ -1,0 +1,7 @@
+def interest(x:Int):Double = x match {
+  case x if x<1000 => 0.5
+  case x if x<10000 => 0.6
+  case x if x<100000 => 0.7
+  case x if x>100000 => 0.8
+}
+interest(50000)
